@@ -1,0 +1,52 @@
+body {
+        margin: 2% auto;
+        padding: 25px;
+        color: #333;
+        font-family: Helvetica, Arial, Sans-Serif;
+        font-size: 12pt;
+        line-height: 1.5;
+      }
+
+      h1 {
+        font-weight: normal;
+        font-size: 200x%;
+        text-align: center;
+      }
+
+      a {
+        color: #5D92A3;
+        text-decoration: none;
+      }
+
+      img {
+        width: 165px;
+        height: 165px;
+      }
+      .col-centered{
+        float: none;
+        margin: 0 auto;
+      }
+
+      .icons{
+        width: 20px;
+        height: 20px;
+        margin-left: 10;
+        margin-top: 20;
+        margin-bottom: 5;
+        display: inline-block;
+      }
+
+      .icons:first-child{
+        margin-left: 35%
+      }
+
+      .icons:last-child {
+        margin-right: 35%;
+      }
+
+      .footer {
+        border-top: solid 1px #999;
+        margin-top: 20px;
+        font-size: 80%;
+        padding-top: 10px;
+      }
