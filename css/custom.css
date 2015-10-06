@@ -75,30 +75,35 @@ p {
   and (-webkit-min-device-pixel-ratio: 2) {
 
   body {
-    font-size: 14pt;
+    font-size: 45pt;
     line-height: 1.5;
-    overflow: hidden;
+    overflow: scroll;
   }
 
   .icons:first-of-type {
-    margin-left: 30%;
+    margin-left: 15%;
   }
+  .icons:nth-child(7) {
+    margin-right: 15%;
+}
 
   .icon-img {
     margin: 5;
-    width: 30;
-    height: 30;
+    width: 50;
+    height: 50;
   }
   .name-header {
-    height: 55;
-    font-size: 45;
+    height: 85;
+    font-size: 65;
+    margin-top: 34;
   }
 
   .icons {
-    width: 40;
-    height: 40;
+    width: 60;
+    height: 60;
     display: inline-block;
-    margin-bottom: 20;
+    margin-bottom: 40;
+    margin-right: 10;
   }
   .profile-pic {
     margin-top: 15;
