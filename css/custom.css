@@ -1,53 +1,104 @@
 body {
-  margin: 0 auto;
   padding: 25px;
   color: #333;
-  font-family: Helvetica, Arial, Sans-Serif;
-  font-size: 12pt;
+  font-family: Merriweather, "PT Serif", Georgia, "Times New Roman", serif;
+  font-size: 13pt;
   line-height: 1.5;
+  overflow: hidden;
 }
 
-h1 {
-  font-weight: normal;
-  font-size: 35px;
-  text-align: center;
-}
-
-a {
-  color: #5D92A3;
+p a:link, p a:visited {
+  color: #EA0000;
   text-decoration: none;
+  border-bottom: 1px dotted #ccc;
 }
 
-img {
-  width: 165px;
-  height: 165px;
+p {
+  text-align: justify;
 }
 
-.col-centered{
+.profile-pic {
+  width: 155;
+  height: 155;
+}
+
+.name-header {
+  padding-bottom: 7;
+  margin-top: 17;
+  font-size: 37;
+  text-align: center;
+  height: 40;
+}
+
+.col-centered {
   float: none;
   margin: 0 auto;
 }
 
-.icons{
-  width: 20px;
-  height: 20px;
-  margin-left: 6;
-  margin-top: 20;
-  margin-bottom: 5;
+.img-circle {
+  border-radius: 20%;
+}
+
+.icon-img {
+  margin: 5;
+  width: 20;
+  height: 20;
+}
+
+.icons {
+  width: 30;
+  height: 30;
   display: inline-block;
+  margin-bottom: 10;
+  border-bottom: 0;
 }
 
-.icons:first-child{
-  margin-left: 35%
+.icons:first-of-type {
+  margin-left: 31%
 }
 
-.icons:last-child {
-  margin-right: 35%;
+.icons:nth-child(7) {
+  margin-right: 30%;
 }
+
 
 .footer {
   border-top: solid 1px #999;
-  margin-top: 20px;
+  margin-top: 20;
   font-size: 80%;
-  padding-top: 10px;
+  padding-top: 10;
+}
+
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+  body {
+    font-size: 11pt;
+    line-height: 1.5;
+    overflow: hidden;
+  }
+  .name-header {
+    font-size: 35;
+  }
+
+  .icons:first-of-type {
+    margin-left: 37%;
+  }
+
+  .icon-img {
+    margin: 5;
+    width: 15;
+    height: 15;
+  }
+
+  .icons {
+    width: 25;
+    height: 25;
+    display: inline-block;
+    margin-bottom: 10;
+  }
+
+
 }
