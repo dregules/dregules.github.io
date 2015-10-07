@@ -75,9 +75,15 @@ p {
   and (-webkit-min-device-pixel-ratio: 2) {
 
   body {
-    font-size: 45pt;
+    font-size: 40pt;
     line-height: 1.5;
     overflow: scroll;
+  }
+
+  p {
+    text-align: left;
+    margin-top: 10;
+    padding-bottom: 20;
   }
 
   .icons:first-of-type {
@@ -93,8 +99,8 @@ p {
     height: 50;
   }
   .name-header {
-    height: 85;
-    font-size: 65;
+    height: 90;
+    font-size: 75;
     margin-top: 34;
   }
 
@@ -106,8 +112,15 @@ p {
     margin-right: 10;
   }
   .profile-pic {
+    width: 235;
+    height: 235;
     margin-top: 15;
   }
+}
 
-
+@media only screen
+  and (max-height: 700px) {
+  body {
+    overflow: scroll;
+  }
 }
